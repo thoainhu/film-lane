@@ -1,0 +1,46 @@
+.bg-body-tertiary {
+    background-color: black !important;
+}
+.navbar {
+    --bs-navbar-padding-y: 0.6rem;
+}
+.navbar-nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 20px;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--primary-color);
+}
+.navbar-nav a.active {
+    color: var(--primary-color) !important;
+}
+.search {
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+}
+.search input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.search input::placeholder {
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+}
+.search .btn {
+    background-color: transparent;
+    border: none;
+}
+.search .btn i {
+    color: var(--primary-color);
+    font-size: 14px;
+    margin-right: 5px;
+}

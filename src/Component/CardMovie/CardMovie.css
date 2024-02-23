@@ -1,0 +1,20 @@
+.card-movie {
+    padding: 10px;
+    color: white;
+}
+
+.card-movie img {
+    border-radius: 10px;
+}
+.card-movie .title {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.card-movie .date-n-vote {
+    display: flex;
+    font-size: 13px;
+}
+.card-movie .vote {
+    margin-left: auto;
+    color: var(--primary-color);
+}

@@ -1,0 +1,13 @@
+.movie-page {
+    text-align: center;
+}
+.headline {
+    margin-top: 50px;
+}
+.movie-page .btn {
+    margin-top: 30px;
+    border: 1px solid var(--primary-color) !important;
+}
+.movie-page .btn:hover {
+    color: white;
+}
